@@ -1,0 +1,30 @@
+# Aayshz Video Generator - Python Dependencies
+# Compatible with Python 3.10+
+
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+diffusers>=0.30.0
+transformers>=4.40.0
+accelerate>=0.30.0
+
+# Video and image processing
+opencv-python>=4.9.0
+pillow>=10.0.0
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+
+# Web interface
+gradio>=4.0.0
+
+# Utilities
+numpy>=1.24.0
+pyyaml>=6.0
+tqdm>=4.65.0
+safetensors>=0.4.0
+huggingface-hub>=0.23.0
+
+# Optional but recommended
+scipy>=1.10.0
+scikit-image>=0.22.0

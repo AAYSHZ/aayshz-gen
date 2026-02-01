@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Models and outputs
+models/
+outputs/
+*.mp4
+*.avi
+*.mov
+*.ckpt
+*.safetensors
+*.bin
+
+# SkyReels-V2 (cloned during install)
+SkyReels-V2/
+
+# Temp files
+temp_*
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
